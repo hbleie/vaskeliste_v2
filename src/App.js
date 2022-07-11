@@ -141,7 +141,7 @@ const Text2 = styled.div`
   font-size: 7vw;
 }
   @media (min-width: 1200px){
-  font-size: 1.9vw;
+  font-size: 1.6vw;
  
   }
    `
