@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/vaskeliste_v2/static/css/main.5d54882a.css",
+    "main.js": "/vaskeliste_v2/static/js/main.a5dff6ec.js",
+    "static/js/787.8f8d0c97.chunk.js": "/vaskeliste_v2/static/js/787.8f8d0c97.chunk.js",
+    "index.html": "/vaskeliste_v2/index.html",
+    "main.5d54882a.css.map": "/vaskeliste_v2/static/css/main.5d54882a.css.map",
+    "main.a5dff6ec.js.map": "/vaskeliste_v2/static/js/main.a5dff6ec.js.map",
+    "787.8f8d0c97.chunk.js.map": "/vaskeliste_v2/static/js/787.8f8d0c97.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d54882a.css",
+    "static/js/main.a5dff6ec.js"
+  ]
+}
