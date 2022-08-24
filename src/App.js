@@ -36,12 +36,11 @@ const oppgave2 = finnOppgave(2);
 const oppgave3 = finnOppgave(3);
 
 const ScreenContainer = styled.div`
-    background-color: black;
     grid-template-rows: 5vh repeat(4, 1fr) 5vh;
     display: grid;
     column-gap: 1vw;
     row-gap: 1vh;
-    @media (max-width: 1200px) {
+    @media (max-width: 1200px) and (min-height: 700px) {
       grid-template-columns: 5vw repeat(3, 1fr) 5vw;
     grid-template-areas:
     ". . . . ."
@@ -51,7 +50,7 @@ const ScreenContainer = styled.div`
         ". header header header ."
         ". . . . .";
     }
-    @media (min-width: 1200px) {
+    @media (min-width: 1200px), (max-height: 700px) {
       grid-template-columns: repeat(5, 1fr);
     grid-template-areas:
     ". . . . ."
@@ -80,10 +79,10 @@ const Header = styled.div`
 const Oppdatert = styled.div`
   grid-area: oppd;
    color: aliceblue;
-   @media (max-width: 1200px) {
+   @media (max-width: 1200px) and (min-height: 700px) {
     font-size: 3vw;
    }
-    @media (min-width: 1200px) {
+    @media (min-width: 1200px), (max-height: 700px) {
     font-size: 1.5vw;
     }
   place-self: center center;
@@ -106,11 +105,11 @@ const Body = styled.div`
 const Text1 = styled.div` 
  grid-area: text1;
    color: aliceblue;
-   @media (max-width: 1200px){
+   @media (max-width: 1200px) and (min-height: 700px){
   font-size: 7vw;
   place-self: center center;
 }
-  @media (min-width: 1200px){
+  @media (min-width: 1200px), (max-height: 700px){
   font-size: 2vw;
     place-self: center center;
   }
@@ -137,10 +136,10 @@ const Text2 = styled.div`
    grid-area: text2;
    color: aliceblue;
    place-self: start center;
-   @media (max-width: 1200px){
+   @media (max-width: 1200px) and (min-height: 700px){
   font-size: 7vw;
 }
-  @media (min-width: 1200px){
+  @media (min-width: 1200px), (max-height: 700px){
   font-size: 1.6vw;
  
   }
