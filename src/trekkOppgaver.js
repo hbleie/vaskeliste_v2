@@ -2,9 +2,9 @@
 const jsonData = require('./vaskeliste.json')
 
 function getWeek() {
-    const currentDate = new Date();
-    const startDate = new Date(currentDate.getFullYear(), 0, 1);
-    var days = Math.floor((currentDate - startDate) /
+    const yesterday = new Date(Date.now() - 86400000)
+    const startDate = new Date(yesterday.getFullYear(), 0, 1);
+    var days = Math.floor((yesterday - startDate) /
         (24 * 60 * 60 * 1000));
 
     var weekNumber = Math.ceil(days / 7);
